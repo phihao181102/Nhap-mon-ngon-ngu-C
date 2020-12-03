@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-	double CV, DT, R;
 	// khai bao bien CT, DT va R kieu double//
+	double CV, DT, R;
 	R = 1.5;
 	// khai bao hang ten PI kieu double//
   double PI = 3.14;
