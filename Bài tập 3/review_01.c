@@ -9,35 +9,35 @@ int main(void) {
   }
   if (n==2)
   {
-    printf("Two");
+    printf("two");
   }
   if (n==3)
   {
-    printf("Three");
+    printf("three");
   }
   if (n==4)
   {
-    printf("Four");
+    printf("four");
   }
   if (n==5)
   {
-    printf("Five");
+    printf("five");
   }
   if (n==6)
   {
-    printf("Six");
+    printf("six");
   }
   if (n==7)
   {
-    printf("Seven");
+    printf("even");
   }
   if (n==8)
   {
-    printf("Eight");
+    printf("eight");
   }
   if(n==9)
   {
-    printf("Nine");
+    printf("nine");
   }
   else if(n > 9)
   {
