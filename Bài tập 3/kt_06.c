@@ -4,7 +4,7 @@
 int main(void) {
   int h;
   printf("Nhap h = ");scanf("%d",&h);
-  if(h > 0){// c‚u a
+  if(h > 0){// c√¢u a
     int i,j;
     for(i = 1; i <= h; i++){
       for(j = 1; j < h * 2; j++){
