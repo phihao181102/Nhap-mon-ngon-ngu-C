@@ -6,9 +6,9 @@ int main(void) {
   int s1 = 0, s2= 0;
   for(i = 1; i <= n; i++){
     if(i % 2 == 0){
-      s1 = s1 + i;// ch?n
+      s1 = s1 + i;
     }else {
-      s2 = s2 + i;// l?
+      s2 = s2 + i;
     }
   }
   printf("Tong so chan s1 = %d\n",s1);
