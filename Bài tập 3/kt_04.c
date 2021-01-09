@@ -3,11 +3,19 @@
 int main(void) {
   int n;
   printf(" Nhap n = ");scanf("%d",&n);
-  int sum = 0;
-  while(n > 0){
-    sum += n % 10;
-    n /= 10; 
-  }
-  printf("Tong cac chu so n = %d",sum);
+  int s = 0;
+  int so;
+  while(n != 0){
+    so = n %10;
+    //cap nhat lai n
+    n = n / 10;
+    //tinh tong
+    s = s+ so;
+    }
+    printf("%d",s);
+  
+  
+  
   return 0;
+
 }
