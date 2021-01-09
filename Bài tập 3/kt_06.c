@@ -1,34 +1,26 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void) {
-  int h;
-  printf("Nhap h = ");scanf("%d",&h);
-  if(h > 0){
-    int i,j;
-    for(i = 1; i <= h; i++){
-      for(j = 1; j < h * 2; j++){
-        if(abs(h - j)<= (i - 1)){
-            printf(" * ");
-        } else {
-          printf("   ");
-        }
-      }
-        printf("\n");
-    }
-  } else {
-    printf("Nhap h > 0");
-  }
-  int k,a,b ;
-  k = h -1;
-  for(a = 0; a < h - 1; a++){
-      for(b = 0; b < 2 * h - 1; b++){
-        if(b == k - a || b == k + a){ printf(" * ");
-        } else {
-          printf("   ");
-        }
-      }
-        printf("\n");
-    } for(a = 0; a < 2 * h - 1; a++) printf(" * ");
-  return 0;
+ int h;
+ // h = 4: 4 hang
+ // hang 1: 1 ngoi sao 3 khoang trang
+ // hang 2: 3 ngoi sao 2 khoang trang
+ // hang 3: 5 ngoi sao 1 khoang trang
+ // hang 4: 7 ngoi sao 0 khoang trang
+
+// h = 3: 3 hang
+// hang 1: 1 ngoi sao 2 khoang trang
+// hang 2:  ngoi sao 1 hoang trang
+// hang 3:  ngoi sao 0 khoang trang
+
+// h = 2:  2 hang
+// hang 1:  1 ngoi sao 1 khoang trang
+// hang 2:  3 ngoi sao 0 khoang trang
+ 
+
+// h = 1: 1 hang
+// hang 1: 1 ngoi sao 0 khoang trang
+ 
+
+
 }
