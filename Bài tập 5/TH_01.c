@@ -2,7 +2,7 @@
 #include <math.h>
 
 int main() {
-    // khai báo bi?n
+    // khai báo bien
 	float a, c, b, delta, x1, x2, x;
 	printf("Nhap vao cac he so phuong trinh bac hai: ");
 	scanf("%f%f%f", &a, &b, &c);
